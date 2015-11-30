@@ -9,7 +9,8 @@ WLD.app = (function (){
         getAppController:           function(){ return WLD.appController; },
         getLandscapeController:     function(){ return WLD.landscapeController; },
         getLightsController:        function(){ return WLD.lightsController; },
-        getPatrickController:        function(){ return WLD.patrickController; },
+        getCrateController:         function(){ return WLD.crateController; },
+        getCamelController:         function(){ return WLD.camelController; },
         
         //--------------------------------------------------------
         initialise: function (){
